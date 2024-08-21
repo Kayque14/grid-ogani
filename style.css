@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+
+}
+
+header {
+    background-color: #f3f1f1;
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr 1.3fr;
+    grid-template-rows: 80px 80px 431px 263px;
+}
+
+#main>div {
+    border: solid 1px;
+}
+
+#logo {
+    grid-column: 2;
+}
+
+#nav {
+    grid-column: 3/6;
+}
+
+#menu {
+    grid-column: 2;
+    grid-row: 2/4;
+}
+
+#busca {
+    grid-row: 2;
+    grid-column: 3/6;
+}
+
+#banner {
+    grid-column: 3/6;
+    grid-row: 3;
+}
+
+#prod1 {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#prod2 {
+    grid-row: 4;
+    grid-column: 3;
+}
+
+#prod3 {
+    grid-row: 4;
+    grid-column: 4;
+}
+
+#prod4 {
+    grid-row: 4;
+    grid-column: 5;
+}
+
+.tamanho {
+    height: 5px;
+}
+
+.alinhar {
+    display: flex;
+}
+
+
+#env {
+    padding-left: 380px;
+    display: flex;
+    align-items: center;
+}
+
+#texto {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 13px
+}
+
+#texto2 {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+#texto3 {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+#faceb {
+    padding-left: 420px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+#twt {
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+}
+
+#link {
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+}
+
+#pint {
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+}
+
+#lang {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+#icon {
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+    height: 10px;
+    width: 10px;
+}
